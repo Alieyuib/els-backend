@@ -221,7 +221,7 @@ class StaffViewSet(viewsets.ModelViewSet):
 
     def perform_create(self, serializer):
         # Save the serializer instance while injecting the current user
-        serializer.save(user=self.request.user)
+        serializer.save()
 
 
 
