@@ -47,11 +47,13 @@ MIDDLEWARE = [
 
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "https://elite-laundry-solution-service.vercel.app/"
-    "https://els-backend-3.onrender.com/"
-]
+CORS_ALLOW_ALL_ORIGINS = True
+
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000",
+#     "https://elite-laundry-solution-service.vercel.app/",
+#     "https://els-backend-3.onrender.com/"
+# ]
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
