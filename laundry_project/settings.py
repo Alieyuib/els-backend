@@ -50,8 +50,9 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://elite-laundry-solution-service.vercel.app/",
-    "https://els-backend-4.onrender.com/"
-    "https://els-backend-5.onrender.com/"
+    "https://els-backend-4.onrender.com/",
+    "https://els-backend-5.onrender.com/",
+    "els-backend-6.onrender.com"
 ]
 
 REST_FRAMEWORK = {
